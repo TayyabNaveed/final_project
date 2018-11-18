@@ -1,0 +1,28 @@
+
+.logo {
+    max-width: 2rem;
+    border-radius: 12%;
+    margin-bottom: 2%;
+  
+  }
+  .navbar{
+    background: rgba(255, 255, 255, 0.7);
+  
+
+  }
+  .NavbarTitle{
+      
+      margin-left:1rem;
+      margin-top: 0;
+   } 
+   .nav-item{
+      font-size: 130%;
+  }
+  
+  
+  .navbar{
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.26);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.26);
+  }
+  

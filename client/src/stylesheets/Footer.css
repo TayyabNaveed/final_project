@@ -1,0 +1,88 @@
+
+
+.Footer{
+  background:  rgb(0,0,0,0.5);
+  color:black;
+}
+li{
+  margin-bottom: 1rem;
+}
+.FooterBaseLogo{
+  max-width: 1rem;
+  max-height:1rem;
+  border-radius: 1rem;
+}
+.footerbase{
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  background-color: rgba(0, 0,0 , 0.3);
+}
+.footerList h4:hover{
+  color:white;
+}
+.footerList{
+  margin-top:10rem;
+  margin-bottom: 8rem;
+  list-style: none;
+}
+.footer2heading{
+  margin-bottom: 2rem; 
+  margin-top:10rem;
+  text-align: center;
+}
+.socialicons{
+  margin-left: 2rem;
+  margin-top: 2rem; 
+  
+}
+.subButton{
+
+  background-color: rgba(0, 0,0 , 0.5);
+  margin-top: 8%;
+}
+.subButton:hover{
+  background-color: black;
+
+}
+.socialicons a{
+  color: black; 
+  transition: all 1s ease;
+}
+.socialicons a:hover{
+  transition-timing-function: linear;
+  
+}
+.socialicons a:visited{
+  color: black;
+}
+
+.subscribe{
+  width: 15rem ;
+  height: 4rem;
+  border: none;
+  margin-right: 4rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  outline-color: black;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 0px 9px 0px rgba(0,0,0,0.24);
+  -moz-box-shadow: inset 0px 0px 9px 0px rgba(0,0,0,0.24);
+  box-shadow: inset 0px 0px 9px 0px rgba(0,0,0,0.24);
+}
+.subscribe:focus{
+  -webkit-box-shadow: inset 0px -1px 9px 3px rgba(39, 28, 36, 0.74);
+  -moz-box-shadow: inset 0px -1px 9px 3px rgba(39, 28, 36, 0.74);
+  box-shadow: inset 0px -1px 9px 3px rgba(39, 28, 36, 0.74);
+}
+
+@media only screen and (max-width: 570px){
+   .socialicons a{
+       margin-left: 3rem;
+  }
+   .subButton{
+      display: block; margin: 0 auto;
+   } 
+   
+}
+
+

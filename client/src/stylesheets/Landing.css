@@ -1,0 +1,34 @@
+
+.Landing{
+    
+    background-image: url(../resources/oldman.jpg) ;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain ;
+    height:40rem;
+}
+h1{ 
+    font-family:  Georgia;
+
+    margin-left: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    text-align: left;
+}
+.getstarted{
+    border: none;
+    margin-right: 55%;
+    background-color: rgba(0, 0,0 , 0.5);
+}
+.getstarted:hover{  
+    background-color: black;
+}
+@media only screen and (max-width: 570px) {
+    .Landing{        background-size: cover;                        
+    }
+    .getstarted{margin-right:0;}
+    
+}
+@media only screen and (max-width: 768px){
+    h1{visibility: hidden;}
+}
